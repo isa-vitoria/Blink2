@@ -1,0 +1,43 @@
+/* Resgatar as configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+
+}
+
+/* Personalização dso botões */
+button
+{
+    margin: 3em auto;
+    margin-left: 3em;
+    cursor: pointer;
+    padding: 2em;
+    min-width: 10em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #eee;
+    border: .25em solid black;
+}
+
+.on
+{
+    background-color: crimson;
+}
+
+.off
+{
+    background-color: #444;
+}
